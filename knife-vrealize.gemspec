@@ -21,10 +21,11 @@ Gem::Specification.new do |spec|
 
   spec.add_dependency 'chef',         '~> 12.0'
   spec.add_dependency 'knife-cloud',  '~> 1.2.0'
-  spec.add_dependency 'vmware-vra',   '~> 1.7'
+  spec.add_dependency 'vmware-vra',   '~> 2.0.0'
   spec.add_dependency 'vcoworkflows', '~> 0.2'
 
   spec.add_development_dependency 'bundler', '~> 1.7'
   spec.add_development_dependency 'rake',    '~> 10.0'
   spec.add_development_dependency 'rubocop', '~> 0.35'
+  spec.add_development_dependency 'github_changelog_generator'
 end
